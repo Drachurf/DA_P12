@@ -39,8 +39,8 @@ if st.button("Analyser le billet"):
     # Légende explicative des clusters
     st.markdown("""
     ---
-    **Légende des clusters KMeans :**<br>
-    - Cluster 0 : contient environ 98.6% de billets authentiques (is_genuine proche de 1)<br>
+    **Légende des clusters KMeans :**
+    - Cluster 0 : contient environ 98.6% de billets authentiques (is_genuine proche de 1)
     - Cluster 1 : contient environ 1.85% de billets authentiques, donc majoritairement des billets faux
     """)
 
